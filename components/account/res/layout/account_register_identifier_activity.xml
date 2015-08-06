@@ -20,4 +20,18 @@
         android:background="#ffffff"
         android:layout_marginTop="32dp" />
 
+    <TextView
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="32dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@drawable/bg_btn_rect_mpurple" />
+
 </LinearLayout>

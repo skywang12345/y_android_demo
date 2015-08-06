@@ -8,5 +8,6 @@
 
     <application>
         <activity android:name="com.oceanwing.y.plugin.account.RegisterIdentifierActivity" />
+        <service android:name="com.oceanwing.y.plugin.account.service.AccountService" />
     </application>
 </manifest>

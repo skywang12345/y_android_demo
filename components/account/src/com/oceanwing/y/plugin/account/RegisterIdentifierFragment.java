@@ -3,6 +3,7 @@ package com.oceanwing.y.plugin.account;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Looper;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.util.Log;
+
+import de.greenrobot.event.EventBus;
 
 /**
  * @author skywang
@@ -40,6 +43,7 @@ public class RegisterIdentifierFragment extends Fragment
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         Log.d(TAG, "onCreateView");
+        Log.d(TAG, "MainLooper:"+Looper.getMainLooper()+", myLooper="+Looper.myLooper()+", equal="+ (Looper.getMainLooper() == Looper.myLooper()));
         View rootView = inflater.inflate(R.layout.account_register_identifier_fragment, container, false);
 
         mContainerEmail = rootView.findViewById(R.id.email_container);
@@ -57,6 +61,8 @@ public class RegisterIdentifierFragment extends Fragment
         rootView.findViewById(R.id.mobile_container).setOnClickListener(this);
         rootView.findViewById(R.id.password_container).setOnClickListener(this);
 
+        EventBus.getDefault().register(this);
+
         return rootView;
     }
 
@@ -65,7 +71,8 @@ public class RegisterIdentifierFragment extends Fragment
         int id = v.getId();
 
         if (id == R.id.mobile_img) {
-            Toast.makeText(getActivity(), "Click Image", Toast.LENGTH_SHORT).show();
+            EventBus.getDefault().post(new String("Event Click Image"));
+            // Toast.makeText(getActivity(), "Click Image", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.email_container) {
             Toast.makeText(getActivity(), "Click email", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.name_container) {
@@ -75,6 +82,16 @@ public class RegisterIdentifierFragment extends Fragment
         } else if (id == R.id.password_container) {
             Toast.makeText(getActivity(), "Click password", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    @Override  
+    public void onDestroy() {
+        super.onDestroy();
+        EventBus.getDefault().unregister(this);
+    }
+
+    public void onEvent(String message) {
+        Log.d(TAG, "onEvent: " + message);
     }
 
     @Override

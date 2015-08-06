@@ -6,4 +6,6 @@
     <color name="ltgray">#ffcccccc</color>
     <color name="blue">#FF0000FF</color>
 
+    <color name="purple_off">#ff800080</color>
+    <color name="purple_on">#ff490148</color>
 </resources>
