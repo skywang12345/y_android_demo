@@ -1,0 +1,141 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="@android:style/Theme.Holo">
+    -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppThemeLightNoActionBar" parent="@android:style/Theme.Light.NoTitleBar" >
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <!-- 水平分割线 -->
+    <style name="HorDivideLineLtgrayStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/ltgray</item>
+    </style>
+    <style name="HorDivideLineBlackStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="HorDivideLineGreenStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/green</item>
+    </style>
+
+
+    <!-- 垂直分割线 -->
+    <style name="VerDivideLineLtgrayStyle">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/ltgray</item>
+    </style>
+    <style name="VerDivideLineBlackStyle">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <!-- 菜单中的样式 -->
+    <style name="MenuLinearContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/bg_transparent_pressed_ltgray</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="MenuImageViewStyle">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+    <style name="MenuTextViewStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@null</item>
+    </style>
+
+
+
+
+
+    <!-- 注册中的样式 -->
+    <style name="RegisterLinearContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="RegisterImageViewStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="RegisterEditTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">6</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:background">@null</item>
+    </style>
+
+
+
+    <!-- 编辑界面的样式 -->
+    <style name="AccountEditorNotifyContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/account_editor_container_height</item>
+    </style>
+    <style name="AccountEditorNotifyTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="AccountEditorNotifyImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+
+</resources>

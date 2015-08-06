@@ -1,0 +1,7 @@
+include ':app'
+
+// UI层的独立组件
+include ':layer_ui/SlidingMenuLibrary'
+
+// module层
+include ':layer_modules/volley'

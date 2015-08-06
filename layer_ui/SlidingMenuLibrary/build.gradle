@@ -1,0 +1,34 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    sourceSets {
+        main {
+            manifest {
+                srcFile 'AndroidManifest.xml'
+            }   
+            java {
+                srcDir 'src'
+            }   
+            res {
+                srcDir 'res'
+            }   
+            assets {
+                srcDir 'assets'
+            }   
+            resources {
+                srcDir 'src'
+            }   
+            aidl {
+                srcDir 'src'
+            }   
+        }   
+    }   
+}
+
+dependencies {
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:20.0.+'
+}

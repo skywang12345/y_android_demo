@@ -1,0 +1,337 @@
+<resources>
+    <string name="app_name">Mobile App</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_facebook_id">1622677874671130</string>
+    <string name="anker">ANKER</string>
+    <string name="sumbit">Sumbit</string>
+
+    <!-- 主界面 -->
+    <string name="rental_welcome">You are Welcomed!</string>
+    <string name="rental_borrow">Borrow</string>
+    <string name="rental_return">Return</string>
+
+    <!-- 租借界面 -->
+    <string name="rent">Rent</string>
+    <string name="rent_2d_code_title">Rent thru. Two-dimensional Code</string>
+    <string name="rent_2d_code_tip">Please align the phone\'s 2D code with the camera</string>
+    <string name="rent_num_title">Rent thru. Reservation Number</string>
+    <string name="rent_num_hint">input your reservation code</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="bar_view">bar view</string>
+    <string name="rent_go_lucky">GO LUCKY</string>
+    <string name="rent_search_content">mobile ping</string>
+    <string name="rent_search_tip">input search conent</string>
+
+    <!-- 租借成功 -->
+    <string name="rent_power_success_tip">Success!\nPlease take the mobile-power!</string>
+
+    <!-- 归还界面 -->
+    <string name="repay_title">Return</string>
+    <string name="repay_2d_code_title">Return thru. Two-dimensional Code</string>
+    <string name="repay_2d_code_tip">Please align the phone\'s 2D code with the camera</string>
+    <string name="repay_num_title">Return thru. Reservation Number</string>
+    <!-- 租借成功 -->
+    <string name="repay_power_success_tip">Success!\nPlease put in the mobile-power!</string>
+
+    <!-- 清除历史记录 -->
+    <string name="trade_search_clear_history">Clear History</string>
+
+
+    <!-- 欢迎界面 -->
+    <string name="welcome_start">Start</string>
+    <string name="welcome_pass">Pass</string>
+
+    <!-- 注册界面 -->
+    <string name="register">Register</string>
+    <string name="register_example_num">6458 3067 8901 1045</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <!-- 注册界面(新) -->
+    <string name="create_an_account">Create An Account</string>
+    <string name="create_a_profile">Create A Profile</string>
+    <string name="add_a_payment">Add Payment</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="user_email">Email</string>
+    <string name="user_name">Name</string>
+    <string name="user_mobile">Mobile</string>
+    <string name="user_default_mobile_prefix">+86</string>
+    <string name="user_password">Password</string>
+    <string name="card_id">CARD</string>
+    <string name="card_exp">exp</string>
+    <string name="card_cvv">cvv</string>
+    <string name="card_scan_tip">Scan Your Card</string>
+    <string name="profile_edit">EDIT</string>
+    <string name="profile_first_name">First</string>
+    <string name="profile_last_name">Last</string>
+    <string name="profile_country_picker">Country Picker</string>
+    <string name="profile_select_camera">Camera</string>
+    <string name="profile_select_gallery">Gallery</string>
+
+    <!-- 登录入口界面 -->
+    <string name="sign_in">Sign In</string>
+    <string name="or">OR</string>
+    <string name="email">Email</string>
+
+    <!-- 忘记密码 -->
+    <string name="forget_password">Forget Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="input_email_for_password">input your email address, we\'ll send the reset password to you</string>
+
+    <!-- [菜单]个人信息编辑界面 -->
+    <string name="profile">Profile</string>
+    <string name="warning">Warning</string>
+    <string name="ok">Ok</string>
+    <string name="logout">Log Out</string>
+    <string name="logout_confirm_message">Are you sure to Log-out?</string>
+    <string name="notify_low_battery">notify low battery</string>
+    <string name="notify_ibeacon_found">notify ibeacon found</string>
+    <string name="notify_ibeacon_nearby">notify ibeacon nearby</string>
+
+    <!-- [菜单]信用卡编辑界面 -->
+    <string name="edit_card">Edit Card</string>
+    <string name="update">Update</string>
+
+    <!-- [菜单]历史记录界面 -->
+    <string name="history">History</string>
+
+    <!-- [菜单]信用卡交易记录界面 -->
+    <string name="payment">Payment</string>
+
+
+    <!-- [菜单]Free Rents界面 -->
+    <string name="free_rents">Free Rents</string>
+
+    <!-- [菜单]Promotions界面 -->
+    <string name="promotions">Promotions</string>
+    <string name="promotion_code_error_empty">Promotion Code is Empty</string>
+    <string name="promotion_code_error_invalidate">Promotion Code is invalidate</string>
+    <string name="promotion_code_error_duplicate">Promotion Code is duplicate</string>
+    <string name="promotion_apply">Apply</string>
+    <string name="promotion_summary">You have five success invitation, Get $10 for free rent. Keep Going...</string>
+    <string name="promotion_send_code">SEND YOUR PROMO CODE</string>
+    <string name="promotion_pernal_code">WA25UK</string>
+    <string name="promotion_email_invite">EMAIL INVITE</string>
+    <string name="promotion_sms_invite">SMS INVITE</string>
+
+
+    <!-- [菜单]帮助界面 -->
+    <string name="help">Help</string>
+    <string name="help_item_content">item content</string>
+
+    <!-- [菜单]关于界面 -->
+    <string name="about">About</string>
+    <string name="link_anker"><a href="http://www.anker.com">http://www.anker.com</a></string>
+    <string name="link_more_info">click the link for more infomation</string>
+
+
+    <!-- (加载)对话框 -->
+    <string name="dialog_loading">Loading...</string>
+
+
+
+    <!-- 时区的标题，与“arrays.xml中的gmt_ids[]数组”的值相对应 -->
+        <!-- 东亚 -->
+    <string name="china">china</string>
+    <string name="northkorea">northkorea</string>
+    <string name="southkorea">southkorea</string>
+    <string name="japan">japan</string>
+        <!-- 东南亚 -->
+    <string name="vietnam">vietnam</string>
+    <string name="laos">laos</string>
+    <string name="cambodia">cambodia</string>
+    <string name="thailand">thailand</string>
+    <string name="burma">burma</string>
+    <string name="malaysia">malaysia</string>
+    <string name="singapore">singapore</string>
+    <string name="philippines">philippines</string>
+    <string name="indonesia">indonesia</string>
+    <string name="easttimor">easttimor</string>
+    <string name="brunei">brunei</string>
+        <!-- 南亚 -->
+    <string name="india">india</string>
+    <string name="pakistan">pakistan</string>
+    <string name="bangladesh">bangladesh</string>
+    <string name="bhutan">bhutan</string>
+    <string name="nepal">nepal</string>
+    <string name="srilanka">srilanka</string>
+    <string name="maldives">maldives</string>
+        <!-- 中亚 -->
+    <string name="kazakhstan">kazakhstan</string>
+    <string name="uzbekistan">uzbekistan</string>
+    <string name="kyrgyzstan">kyrgyzstan</string>
+    <string name="tajikistan">tajikistan</string>
+    <string name="turkmenistan">turkmenistan</string>
+        <!-- 西亚 -->
+    <string name="afghanistan">afghanistan</string>
+    <string name="iran">iran</string>
+    <string name="kuwait">kuwait</string>
+    <string name="saudiarabia">saudiarabia</string>
+    <string name="bahrain">bahrain</string>
+    <string name="qatar">qatar</string>
+    <string name="unitedarabemirates">unitedarabemirates</string>
+    <string name="oman">oman</string>
+    <string name="yemen">yemen</string>
+    <string name="iraq">iraq</string>
+    <string name="syria">syria</string>
+    <string name="lebanon">lebanon</string>
+    <string name="israel">israel</string>
+    <string name="armenia">armenia</string>
+    <string name="azerbaijan">azerbaijan</string>
+    <string name="georgia">georgia</string>
+    <string name="jordan">jordan</string>
+    <string name="cyprus">cyprus</string>
+    <string name="turkey">turkey</string>
+        <!-- 北非 -->
+    <string name="egypt">egypt</string>
+    <string name="libya">libya</string>
+    <string name="tunisia">tunisia</string>
+    <string name="algeria">algeria</string>
+    <string name="morocco">morocco</string>
+        <!-- 南非 -->
+    <string name="sudan">sudan</string>
+    <string name="mauretania">mauretania</string>
+    <string name="senegal">senegal</string>
+    <string name="gambia">gambia</string>
+    <string name="mali">mali</string>
+    <string name="guinea">guinea</string>
+    <string name="guineabissau">guineabissau</string>
+    <string name="sierraleone">sierraleone</string>
+    <string name="liberia">liberia</string>
+    <string name="cotedivoire">cotedivoire</string>
+    <string name="ghana">ghana</string>
+    <string name="togo">togo</string>
+    <string name="benin">benin</string>
+    <string name="burkinafaso">burkinafaso</string>
+    <string name="niger">niger</string>
+    <string name="nigeria">nigeria</string>
+    <string name="chad">chad</string>
+    <string name="cameroon">cameroon</string>
+    <string name="equatorialguinea">equatorialguinea</string>
+    <string name="saotomeandprincipe">saotomeandprincipe</string>
+    <string name="centralafricanrepublic">centralafricanrepublic</string>
+    <string name="gabon">gabon</string>
+    <string name="angola">angola</string>
+    <string name="congorepublic">congorepublic</string>
+    <string name="congodemocraticrepublic">congodemocraticrepublic</string>
+    <string name="burundi">burundi</string>
+    <string name="rwanda">rwanda</string>
+    <string name="uganda">uganda</string>
+    <string name="kenya">kenya</string>
+    <string name="ethiopia">ethiopia</string>
+    <string name="eritrea">eritrea</string>
+    <string name="somalia">somalia</string>
+    <string name="djibouti">djibouti</string>
+    <string name="tanzania">tanzania</string>
+    <string name="zambia">zambia</string>
+    <string name="zimbabwe">zimbabwe</string>
+    <string name="malawi">malawi</string>
+    <string name="mozambique">mozambique</string>
+    <string name="botswana">botswana</string>
+    <string name="southafrica">southafrica</string>
+    <string name="lesotho">lesotho</string>
+    <string name="swaziland">swaziland</string>
+    <string name="namibia">namibia</string>
+    <string name="madagascar">madagascar</string>
+    <string name="seychelles">seychelles</string>
+    <string name="comoros">comoros</string>
+    <string name="mauritius">mauritius</string>
+    <string name="capeverde">capeverde</string>
+        <!-- 西欧 -->
+    <string name="romania">romania</string>
+    <string name="bulgaria">bulgaria</string>
+    <string name="serbia">serbia</string>
+    <string name="croatia">croatia</string>
+    <string name="slovenia">slovenia</string>
+    <string name="bosniaandherzegovina">bosniaandherzegovina</string>
+    <string name="macedonia">macedonia</string>
+    <string name="greece">greece</string>
+    <string name="albania">albania</string>
+    <string name="monaco">monaco</string>
+    <string name="italy">italy</string>
+    <string name="vatican">vatican</string>
+    <string name="sanmarino">sanmarino</string>
+    <string name="spain">spain</string>
+    <string name="andorra">andorra</string>
+    <string name="portugal">portugal</string>
+    <string name="malta">malta</string>
+    <string name="england">england</string>
+    <string name="ireland">ireland</string>
+    <string name="netherlands">netherlands</string>
+    <string name="belgium">belgium</string>
+    <string name="luxembourg">luxembourg</string>
+    <string name="france">france</string>
+    <string name="finland">finland</string>
+    <string name="sweden">sweden</string>
+    <string name="norway">norway</string>
+    <string name="denmark">denmark</string>
+    <string name="iceland">iceland</string>
+    <string name="germany">germany</string>
+    <string name="austria">austria</string>
+    <string name="switzerland">switzerland</string>
+    <string name="liechtenstein">liechtenstein</string>
+    <string name="poland">poland</string>
+    <string name="czechrepublic">czechrepublic</string>
+    <string name="slovakia">slovakia</string>
+    <string name="hungary">hungary</string>
+        <!-- 东欧 -->
+    <string name="russia">russia</string>
+    <string name="ukraine">ukraine</string>
+    <string name="belarus">belarus</string>
+    <string name="moldova">moldova</string>
+    <string name="lithuania">lithuania</string>
+    <string name="estonia">estonia</string>
+    <string name="latvia">latvia</string>
+        <!-- 北美 -->
+    <string name="america">america</string>
+    <string name="canada">canada</string>
+        <!-- 拉丁美洲 -->
+    <string name="mexico">mexico</string>
+    <string name="guatemala">guatemala</string>
+    <string name="honduras">honduras</string>
+    <string name="belize">belize</string>
+    <string name="salvador">salvador</string>
+    <string name="nicaragua">nicaragua</string>
+    <string name="costarica">costarica</string>
+    <string name="panama">panama</string>
+    <string name="cuba">cuba</string>
+    <string name="haiti">haiti</string>
+    <string name="dominicanrepublic">dominicanrepublic</string>
+    <string name="jamaica">jamaica</string>
+    <string name="grenada">grenada</string>
+    <string name="trinidadandtobago">trinidadandtobago</string>
+    <string name="barbados">barbados</string>
+    <string name="saintlucia">saintlucia</string>
+    <string name="dominica">dominica</string>
+    <string name="bahamas">bahamas</string>
+    <string name="colombia">colombia</string>
+    <string name="peru">peru</string>
+    <string name="chile">chile</string>
+    <string name="guyana">guyana</string>
+    <string name="suriname">suriname</string>
+    <string name="venezuela">venezuela</string>
+    <string name="brazil">brazil</string>
+    <string name="bolivia">bolivia</string>
+    <string name="argentina">argentina</string>
+    <string name="uruguay">uruguay</string>
+    <string name="paraguay">paraguay</string>
+        <!-- 大洋洲 -->
+    <string name="australia">australia</string>
+    <string name="newzealand">newzealand</string>
+    <string name="samoa">samoa</string>
+    <string name="tonga">tonga</string>
+    <string name="fiji">fiji</string>
+    <string name="papuanewguinea">papuanewguinea</string>
+    <string name="solomonislands">solomonislands</string>
+    <string name="vanuatu">vanuatu</string>
+    <string name="nauru">nauru</string>
+    <string name="kiribati">kiribati</string>
+    <string name="tuvalu">tuvalu</string>
+    <string name="micronesia">micronesia</string>
+    <string name="marshallislands">marshallislands</string>
+    <string name="palau">palau</string>
+    <string name="cookislands">cookislands</string>
+
+</resources>

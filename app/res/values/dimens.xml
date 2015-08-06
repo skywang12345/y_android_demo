@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="shadow_width">4dp</dimen>
+
+    <dimen name="rectangle_corner_l">8dp</dimen>
+    <dimen name="rectangle_corner_m">4dp</dimen>
+    <dimen name="rectangle_corner_s">2dp</dimen>
+
+    <!-- 状态栏 -->
+    <dimen name="header_press_view_padding_left">8dp</dimen>
+    <dimen name="header_press_view_padding_right">8dp</dimen>
+
+    <!-- 账户界面基本输入容器高度 -->
+    <dimen name="account_editor_container_height">56dp</dimen>
+
+</resources>

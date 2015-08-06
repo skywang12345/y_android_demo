@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     状态栏：共3项内容         
+     (01) 左边：TextView或ImageButton。默认显示ImageButton(返回图标)
+     (02) 中间：TextView。默认没有点击状态
+     (03) 右边：TextView。默认是刷新图标
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="true"   
+    android:background="@color/xxltgray"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize" >
+    
+    <!-- 左边的视图 -->
+    <FrameLayout
+        android:id="@+id/header_center_container"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp" >
+
+        <TextView
+            android:id="@+id/header_left_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/header_press_view_padding_left"
+            android:paddingRight="@dimen/header_press_view_padding_right"
+            android:background="@drawable/bg_btn_rectangle_transparent_pressed_translucent_gray"
+            android:visibility="gone"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/cancel"
+            android:textColor="@color/dkgray"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageButton
+            android:id="@+id/header_left_img"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/header_press_view_padding_left"
+            android:paddingRight="@dimen/header_press_view_padding_right"
+            android:src="@drawable/ic_back_gray"
+            android:background="@drawable/bg_btn_rectangle_transparent_pressed_translucent_gray" />
+    </FrameLayout>
+
+    <!-- 中间的标题(默认：没有设置点击状态) -->
+    <TextView
+        android:id="@+id/header_center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:paddingLeft="@dimen/header_press_view_padding_left"
+        android:paddingRight="@dimen/header_press_view_padding_right"
+        android:background="@drawable/bg_btn_rectangle_transparent_pressed_translucent_gray"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <!-- 右边按钮：可通过代码setImageResource更改图片 -->
+    <TextView
+        android:id="@+id/header_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/header_press_view_padding_left"
+        android:paddingRight="@dimen/header_press_view_padding_right"
+        android:background="@drawable/bg_btn_rectangle_transparent_pressed_translucent_gray"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/dkgray"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout>

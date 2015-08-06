@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MarkerInfoView">
+        <attr name="tipSize" format="dimension" />
+        <attr name="tipColor" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="color_names">
+        <item>Red</item>       
+        <item>Green</item>     
+        <item>Blue</item>      
+        <item>White</item>     
+        <item>Black</item>     
+    </string-array>
+
+    <!-- 帮助FAQ列表 -->
+    <string-array name="help_faqs">
+        <item>i want to rent Portable-Power</item>
+        <item>how to pay</item>
+        <item>what is the price</item>
+        <item>is the receipt supported</item>
+        <item>which cities has the Anker mobile station</item>
+        <item>is it security</item>
+        <item>emergency situations</item>
+    </string-array>
+
+
+    <!-- 国家名的id -->
+    <string-array name="country_ids">
+        <!-- 东亚 -->
+        <item>china</item>
+        <item>northkorea</item>
+        <item>southkorea</item>
+        <item>japan</item>
+        <!-- 东南亚 -->
+        <item>vietnam</item>
+        <item>laos</item>
+        <item>cambodia</item>
+        <item>thailand</item>
+        <item>burma</item>
+        <item>malaysia</item>
+        <item>singapore</item>
+        <item>philippines</item>
+        <item>indonesia</item>
+        <item>easttimor</item>
+        <item>brunei</item>
+        <!-- 南亚 -->
+        <item>india</item>
+        <item>pakistan</item>
+        <item>bangladesh</item>
+        <item>bhutan</item>
+        <item>nepal</item>
+        <item>srilanka</item>
+        <item>maldives</item>
+        <!-- 中亚 -->
+        <item>kazakhstan</item>
+        <item>uzbekistan</item>
+        <item>kyrgyzstan</item>
+        <item>tajikistan</item>
+        <item>turkmenistan</item>
+        <!-- 西亚 -->
+        <item>afghanistan</item>
+        <item>iran</item>
+        <item>kuwait</item>
+        <item>saudiarabia</item>
+        <item>bahrain</item>
+        <item>qatar</item>
+        <item>unitedarabemirates</item>
+        <item>oman</item>
+        <item>yemen</item>
+        <item>iraq</item>
+        <item>syria</item>
+        <item>lebanon</item>
+        <item>israel</item>
+        <item>armenia</item>
+        <item>azerbaijan</item>
+        <item>georgia</item>
+        <item>jordan</item>
+        <item>cyprus</item>
+        <item>turkey</item>
+        <!-- 北非 -->
+        <item>egypt</item>
+        <item>libya</item>
+        <item>tunisia</item>
+        <item>algeria</item>
+        <item>morocco</item>
+        <!-- 南非 -->
+        <item>sudan</item>
+        <item>mauretania</item>
+        <item>senegal</item>
+        <item>gambia</item>
+        <item>mali</item>
+        <item>guinea</item>
+        <item>guineabissau</item>
+        <item>sierraleone</item>
+        <item>liberia</item>
+        <item>cotedivoire</item>
+        <item>ghana</item>
+        <item>togo</item>
+        <item>benin</item>
+        <item>burkinafaso</item>
+        <item>niger</item>
+        <item>nigeria</item>
+        <item>chad</item>
+        <item>cameroon</item>
+        <item>equatorialguinea</item>
+        <item>saotomeandprincipe</item>
+        <item>centralafricanrepublic</item>
+        <item>gabon</item>
+        <item>angola</item>
+        <item>congorepublic</item>
+        <item>congodemocraticrepublic</item>
+        <item>burundi</item>
+        <item>rwanda</item>
+        <item>uganda</item>
+        <item>kenya</item>
+        <item>ethiopia</item>
+        <item>eritrea</item>
+        <item>somalia</item>
+        <item>djibouti</item>
+        <item>tanzania</item>
+        <item>zambia</item>
+        <item>zimbabwe</item>
+        <item>malawi</item>
+        <item>mozambique</item>
+        <item>botswana</item>
+        <item>southafrica</item>
+        <item>lesotho</item>
+        <item>swaziland</item>
+        <item>namibia</item>
+        <item>madagascar</item>
+        <item>seychelles</item>
+        <item>comoros</item>
+        <item>mauritius</item>
+        <item>capeverde</item>
+        <!-- 西欧 -->
+        <item>romania</item>
+        <item>bulgaria</item>
+        <item>serbia</item>
+        <item>croatia</item>
+        <item>slovenia</item>
+        <item>bosniaandherzegovina</item>
+        <item>macedonia</item>
+        <item>greece</item>
+        <item>albania</item>
+        <item>monaco</item>
+        <item>italy</item>
+        <item>vatican</item>
+        <item>sanmarino</item>
+        <item>spain</item>
+        <item>andorra</item>
+        <item>portugal</item>
+        <item>malta</item>
+        <item>england</item>
+        <item>ireland</item>
+        <item>netherlands</item>
+        <item>belgium</item>
+        <item>luxembourg</item>
+        <item>france</item>
+        <item>finland</item>
+        <item>sweden</item>
+        <item>norway</item>
+        <item>denmark</item>
+        <item>iceland</item>
+        <item>germany</item>
+        <item>austria</item>
+        <item>switzerland</item>
+        <item>liechtenstein</item>
+        <item>poland</item>
+        <item>czechrepublic</item>
+        <item>slovakia</item>
+        <item>hungary</item>
+        <!-- 东欧 -->
+        <item>russia</item>
+        <item>ukraine</item>
+        <item>belarus</item>
+        <item>moldova</item>
+        <item>lithuania</item>
+        <item>estonia</item>
+        <item>latvia</item>
+        <!-- 北美 -->
+        <item>america</item>
+        <item>canada</item>
+        <!-- 拉丁美洲 -->
+        <item>mexico</item>
+        <item>guatemala</item>
+        <item>honduras</item>
+        <item>belize</item>
+        <item>salvador</item>
+        <item>nicaragua</item>
+        <item>costarica</item>
+        <item>panama</item>
+        <item>cuba</item>
+        <item>haiti</item>
+        <item>dominicanrepublic</item>
+        <item>jamaica</item>
+        <item>grenada</item>
+        <item>trinidadandtobago</item>
+        <item>barbados</item>
+        <item>saintlucia</item>
+        <item>dominica</item>
+        <item>bahamas</item>
+        <item>colombia</item>
+        <item>peru</item>
+        <item>chile</item>
+        <item>guyana</item>
+        <item>suriname</item>
+        <item>venezuela</item>
+        <item>brazil</item>
+        <item>bolivia</item>
+        <item>argentina</item>
+        <item>uruguay</item>
+        <item>paraguay</item>
+        <!-- 大洋洲 -->
+        <item>australia</item>
+        <item>newzealand</item>
+        <item>samoa</item>
+        <item>tonga</item>
+        <item>fiji</item>
+        <item>papuanewguinea</item>
+        <item>solomonislands</item>
+        <item>vanuatu</item>
+        <item>nauru</item>
+        <item>kiribati</item>
+        <item>tuvalu</item>
+        <item>micronesia</item>
+        <item>marshallislands</item>
+        <item>palau</item>
+        <item>cookislands</item>
+    </string-array>
+
+
+    <!-- 国家名的电话前缀 -->
+    <string-array name="country_mobile_prefix">
+        <!-- 东亚 -->
+        <item>+86</item>
+        <item>+85</item>
+        <item>+84</item>
+        <item>+83</item>
+        <!-- 东南亚 -->
+        <item>+82</item>
+        <item>+81</item>
+        <item>+80</item>
+        <item>+79</item>
+        <item>+78</item>
+        <item>+77</item>
+        <item>+76</item>
+        <item>+75</item>
+        <item>+74</item>
+        <item>+73</item>
+        <item>+72</item>
+        <!-- 南亚 -->
+        <item>+71</item>
+        <item>+70</item>
+        <item>+69</item>
+        <item>+68</item>
+        <item>+67</item>
+        <item>+66</item>
+        <item>+65</item>
+        <!-- 中亚 -->
+        <item>+64</item>
+        <item>+63</item>
+        <item>+62</item>
+        <item>+61</item>
+        <item>+60</item>
+        <!-- 西亚 -->
+        <item>+59</item>
+        <item>+58</item>
+        <item>+57</item>
+        <item>+56</item>
+        <item>+55</item>
+        <item>+54</item>
+        <item>+53</item>
+        <item>+52</item>
+        <item>+51</item>
+        <item>+50</item>
+        <item>+49</item>
+        <item>+48</item>
+        <item>+47</item>
+        <item>+46</item>
+        <item>+45</item>
+        <item>+44</item>
+        <item>+43</item>
+        <item>+42</item>
+        <item>+41</item>
+        <!-- 北非 -->
+        <item>+40</item>
+        <item>+39</item>
+        <item>+38</item>
+        <item>+37</item>
+        <item>+36</item>
+        <!-- 南非 -->
+        <item>+35</item>
+        <item>+34</item>
+        <item>+33</item>
+        <item>+32</item>
+        <item>+31</item>
+        <item>+30</item>
+        <item>+29</item>
+        <item>+28</item>
+        <item>+27</item>
+        <item>+26</item>
+        <item>+25</item>
+        <item>+24</item>
+        <item>+23</item>
+        <item>+22</item>
+        <item>+21</item>
+        <item>+20</item>
+        <item>+19</item>
+        <item>+18</item>
+        <item>+17</item>
+        <item>+16</item>
+        <item>+15</item>
+        <item>+14</item>
+        <item>+13</item>
+        <item>+12</item>
+        <item>+11</item>
+        <item>+10</item>
+        <item>+861</item>
+        <item>+862</item>
+        <item>+863</item>
+        <item>+864</item>
+        <item>+865</item>
+        <item>+866</item>
+        <item>+867</item>
+        <item>+868</item>
+        <item>+869</item>
+        <item>+870</item>
+        <item>+871</item>
+        <item>+872</item>
+        <item>+873</item>
+        <item>+874</item>
+        <item>+875</item>
+        <item>+876</item>
+        <item>+877</item>
+        <item>+878</item>
+        <item>+879</item>
+        <item>+880</item>
+        <item>+881</item>
+        <item>+882</item>
+        <!-- 西欧 -->
+        <item>+883</item>
+        <item>+884</item>
+        <item>+885</item>
+        <item>+886</item>
+        <item>+887</item>
+        <item>+888</item>
+        <item>+889</item>
+        <item>+890</item>
+        <item>+801</item>
+        <item>+802</item>
+        <item>+803</item>
+        <item>+804</item>
+        <item>+805</item>
+        <item>+806</item>
+        <item>+807</item>
+        <item>+808</item>
+        <item>+809</item>
+        <item>+810</item>
+        <item>+811</item>
+        <item>+812</item>
+        <item>+813</item>
+        <item>+814</item>
+        <item>+815</item>
+        <item>+816</item>
+        <item>+817</item>
+        <item>+818</item>
+        <item>+819</item>
+        <item>+820</item>
+        <item>+821</item>
+        <item>+822</item>
+        <item>+823</item>
+        <item>+824</item>
+        <item>+825</item>
+        <item>+826</item>
+        <item>+827</item>
+        <item>+828</item>
+        <!-- 东欧 -->
+        <item>+829</item>
+        <item>+830</item>
+        <item>+831</item>
+        <item>+832</item>
+        <item>+833</item>
+        <item>+834</item>
+        <item>+835</item>
+        <!-- 北美 -->
+        <item>+836</item>
+        <item>+837</item>
+        <!-- 拉丁美洲 -->
+        <item>+838</item>
+        <item>+839</item>
+        <item>+840</item>
+        <item>+841</item>
+        <item>+842</item>
+        <item>+843</item>
+        <item>+844</item>
+        <item>+845</item>
+        <item>+846</item>
+        <item>+847</item>
+        <item>+848</item>
+        <item>+849</item>
+        <item>+850</item>
+        <item>+851</item>
+        <item>+852</item>
+        <item>+853</item>
+        <item>+854</item>
+        <item>+855</item>
+        <item>+856</item>
+        <item>+857</item>
+        <item>+858</item>
+        <item>+859</item>
+        <item>+600</item>
+        <item>+601</item>
+        <item>+602</item>
+        <item>+603</item>
+        <item>+604</item>
+        <item>+605</item>
+        <item>+606</item>
+        <!-- 大洋洲 -->
+        <item>+607</item>
+        <item>+608</item>
+        <item>+609</item>
+        <item>+610</item>
+        <item>+611</item>
+        <item>+612</item>
+        <item>+613</item>
+        <item>+614</item>
+        <item>+615</item>
+        <item>+616</item>
+        <item>+617</item>
+        <item>+618</item>
+        <item>+619</item>
+        <item>+620</item>
+        <item>+621</item>
+    </string-array>
+
+</resources>

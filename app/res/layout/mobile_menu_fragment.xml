@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView 
+        android:id="@+id/img"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_person_default" />
+
+    <TextView style="@style/HorDivideLineBlackStyle" 
+        android:id="@+id/img_divider"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/img"
+        android:layout_alignParentLeft="true" />
+
+    <!-- 个人资料 -->
+    <LinearLayout style="@style/MenuLinearContainerStyle"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/img_divider"
+        android:id="@+id/person_container">
+        <ImageView style="@style/MenuImageViewStyle"
+            android:id="@+id/person_img"
+            android:src="@drawable/ic_menu_profile_normal" />
+        <TextView style="@style/VerDivideLineBlackStyle" />
+        <TextView style="@style/MenuTextViewStyle"
+            android:id="@+id/person_content"
+            android:text="@string/profile" />
+    </LinearLayout>
+
+    <TextView style="@style/HorDivideLineLtgrayStyle" 
+        android:id="@+id/person_divider"
+        android:layout_below="@id/person_container" />
+
+    <!-- 历史记录 -->
+    <LinearLayout style="@style/MenuLinearContainerStyle"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/person_divider"
+        android:id="@+id/history_container">
+        <ImageView style="@style/MenuImageViewStyle"
+            android:id="@+id/history_img"
+            android:src="@drawable/ic_menu_history_normal" />
+        <TextView style="@style/VerDivideLineBlackStyle" />
+        <TextView style="@style/MenuTextViewStyle"
+            android:id="@+id/history_content"
+            android:text="@string/history" />
+    </LinearLayout>
+
+    <TextView style="@style/HorDivideLineLtgrayStyle" 
+        android:id="@+id/history_divider"
+        android:layout_below="@id/history_container" />
+
+    <!-- 交易记录 -->
+    <LinearLayout style="@style/MenuLinearContainerStyle"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/history_divider"
+        android:id="@+id/payment_container">
+        <ImageView style="@style/MenuImageViewStyle"
+            android:id="@+id/payment_img"
+            android:src="@drawable/ic_menu_payment_normal" />
+        <TextView style="@style/VerDivideLineBlackStyle" />
+        <TextView style="@style/MenuTextViewStyle"
+            android:id="@+id/payment_content"
+            android:text="@string/payment" />
+    </LinearLayout>
+
+    <TextView style="@style/HorDivideLineLtgrayStyle" 
+        android:id="@+id/payment_divider"
+        android:layout_below="@id/payment_container" />
+
+    <!-- 分享 -->
+    <LinearLayout style="@style/MenuLinearContainerStyle"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/payment_divider"
+        android:id="@+id/share_container">
+        <ImageView style="@style/MenuImageViewStyle"
+            android:id="@+id/share_img"
+            android:src="@drawable/ic_menu_share_normal" />
+        <TextView style="@style/VerDivideLineBlackStyle" />
+        <TextView style="@style/MenuTextViewStyle"
+            android:id="@+id/share_content"
+            android:text="@string/free_rents" />
+    </LinearLayout>
+
+    <TextView style="@style/HorDivideLineLtgrayStyle" 
+        android:id="@+id/share_divider"
+        android:layout_below="@id/share_container" />
+
+    <!-- Promotions -->
+    <LinearLayout style="@style/MenuLinearContainerStyle"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/share_divider"
+        android:id="@+id/promo_container">
+        <ImageView style="@style/MenuImageViewStyle"
+            android:id="@+id/promo_img"
+            android:src="@drawable/ic_menu_promo_normal" />
+        <TextView style="@style/VerDivideLineBlackStyle" />
+        <TextView style="@style/MenuTextViewStyle"
+            android:id="@+id/promo_content"
+            android:text="@string/promotions" />
+    </LinearLayout>
+
+
+    <TextView style="@style/HorDivideLineLtgrayStyle" 
+        android:id="@+id/promo_divider"
+        android:layout_below="@id/promo_container" />
+
+    <!-- 帮助 -->
+    <LinearLayout style="@style/MenuLinearContainerStyle"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/promo_divider"
+        android:id="@+id/help_container">
+        <ImageView style="@style/MenuImageViewStyle"
+            android:id="@+id/help_img"
+            android:src="@drawable/ic_menu_help_normal" />
+        <TextView style="@style/VerDivideLineBlackStyle" />
+        <TextView style="@style/MenuTextViewStyle"
+            android:id="@+id/help_content"
+            android:text="@string/help" />
+    </LinearLayout>
+
+    <TextView style="@style/HorDivideLineLtgrayStyle" 
+        android:id="@+id/help_divider"
+        android:layout_below="@id/help_container" />
+
+    <!-- 关于 -->
+    <LinearLayout style="@style/MenuLinearContainerStyle"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/help_divider"
+        android:id="@+id/about_container">
+        <ImageView style="@style/MenuImageViewStyle"
+            android:id="@+id/about_img"
+            android:src="@drawable/ic_menu_about_normal" />
+        <TextView style="@style/VerDivideLineBlackStyle" />
+        <TextView style="@style/MenuTextViewStyle"
+            android:id="@+id/about_content"
+            android:text="@string/about" />
+    </LinearLayout>
+
+    <!-- 设置 -->
+    <!--
+    <LinearLayout style="@style/MenuLinearContainerStyle"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/help_divider"
+        android:id="@+id/setting_container">
+        <ImageView style="@style/MenuImageViewStyle"
+            android:id="@+id/setting_img"
+            android:src="@drawable/ic_menu_settings_normal" />
+        <TextView style="@style/VerDivideLineBlackStyle" />
+        <TextView style="@style/MenuTextViewStyle"
+            android:id="@+id/setting_content"
+            android:text="Setting" />
+    </LinearLayout>
+
+    <TextView style="@style/HorDivideLineBlackStyle" 
+        android:id="@+id/setting_divider"
+        android:layout_below="@id/setting_container" />
+    -->
+
+    <TextView style="@style/HorDivideLineBlackStyle" 
+        android:id="@+id/about_divider"
+        android:layout_below="@id/about_container" />
+</RelativeLayout>
