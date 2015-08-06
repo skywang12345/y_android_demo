@@ -62,8 +62,8 @@ dependencies {
     // UI层
     compile project(':layer_ui/SlidingMenuLibrary')
 
-    // module层
-    compile project(':layer_modules/volley')
+    // RPC层
+    compile project(':layer_rpc/volley')
 
     // 插件
     compile project(':components/account')
