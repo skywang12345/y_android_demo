@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- E-Mail -->
+    <LinearLayout
+        android:id="@+id/email_container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/account_editor_container_height" >
+        <TextView
+            android:id="@+id/email_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:text="@string/user_email"
+            android:textColor="@color/gray"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/email_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="3"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:hint="name@example.com"
+            android:background="@null"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <View style="@style/HorDivideLineLtgrayStyle" />
+
+    <!-- Name -->
+    <LinearLayout
+        android:id="@+id/name_container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/account_editor_container_height" >
+        <TextView
+            android:id="@+id/name_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:text="@string/user_name"
+            android:textColor="@color/gray"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/name_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="3"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:singleLine="true"
+            android:hint="sky wang"
+            android:background="@null"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <View style="@style/HorDivideLineLtgrayStyle" />
+
+    <!-- Mobile -->
+    <LinearLayout
+        android:id="@+id/mobile_container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/account_editor_container_height" >
+        <TextView
+            android:id="@+id/mobile_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:text="@string/user_mobile"
+            android:textColor="@color/gray"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3" >
+
+            <TextView
+                android:id="@+id/mobile_prefix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="12dp"
+                android:singleLine="true"
+                android:text="@string/user_default_mobile_prefix"
+                android:textColor="@color/blue"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/mobile_img"
+                android:layout_width="36dp"
+                android:layout_height="36dp" 
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@null"
+                android:src="@drawable/china" />
+
+            <EditText
+                android:id="@+id/mobile_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_toLeftOf="@id/mobile_img"
+                android:layout_toRightOf="@id/mobile_prefix"
+                android:layout_centerVertical="true"
+                android:paddingRight="12dp"
+                android:inputType="number"
+                android:digits="1234567890"
+                android:singleLine="true"
+                android:background="@null"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View style="@style/HorDivideLineLtgrayStyle" />
+
+    <!-- Password -->
+    <LinearLayout
+        android:id="@+id/password_container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/account_editor_container_height" >
+        <TextView
+            android:id="@+id/password_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:text="@string/user_password"
+            android:textColor="@color/gray"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/password_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="3"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:background="@null"
+            android:hint="@string/user_password_min_length"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+</LinearLayout>

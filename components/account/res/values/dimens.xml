@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 账户界面基本输入容器高度 -->
+    <dimen name="account_editor_container_height">56dp</dimen>
+                
+</resources>    

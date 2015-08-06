@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidTest</string>
+
+    <string name="user_email">Email</string>
+    <string name="user_name">Name</string>
+    <string name="user_mobile">Mobile</string>
+    <string name="user_default_mobile_prefix">+86</string>
+    <string name="user_password">Password</string>
+    <string name="user_password_min_length">Min 5 Characters</string>
+
+</resources>
