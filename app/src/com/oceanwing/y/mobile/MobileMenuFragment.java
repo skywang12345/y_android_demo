@@ -1,6 +1,7 @@
 package com.oceanwing.y.mobile;
 
 // import com.oceanwing.y.mobile.account.EditPaymentActivity;
+import com.oceanwing.y.plugin.account.RegisterIdentifierActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -44,6 +45,7 @@ public class MobileMenuFragment extends Fragment
         switch (view.getId()) {
             case R.id.person_container: {
                 // startActivity(new Intent(this.getActivity(), EditProfileActivity.class));
+                startActivity(new Intent(this.getActivity(), RegisterIdentifierActivity.class));
                 break;
             }
             case R.id.history_container: {

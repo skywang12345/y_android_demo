@@ -5,3 +5,7 @@ include ':layer_ui/SlidingMenuLibrary'
 
 // module层
 include ':layer_modules/volley'
+
+
+// 插件
+include ':components/account'

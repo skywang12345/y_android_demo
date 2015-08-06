@@ -57,9 +57,14 @@ dependencies {
     compile 'com.android.support:support-v4:20.0.+'
     compile 'com.android.support:appcompat-v7:20.0.+'
 
+    compile 'de.greenrobot:eventbus:2.4.0'
+
     // UI层
     compile project(':layer_ui/SlidingMenuLibrary')
 
     // module层
     compile project(':layer_modules/volley')
+
+    // 插件
+    compile project(':components/account')
 }
