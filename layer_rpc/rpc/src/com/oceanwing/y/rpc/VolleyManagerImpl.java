@@ -55,11 +55,11 @@ import org.json.JSONObject;
  * HTTP请求管理模块
  *
  * @desc HTTP请求的具体操作是通过"Volley"去完成的。
- *  而VolleyManager则是对App所有请求的管理。
+ *  而VolleyManagerImpl则是对App所有请求的管理。
  *
  */
-public class VolleyManager {
-    private static String TAG = "##skywang-VolleyManager";
+public class VolleyManagerImpl {
+    private static String TAG = "##skywang-VolleyManagerImpl";
 
     // private static final String HTTP_SERVER = "https://t.ankercam.com/app/";
     private static final String HTTP_SERVER = "http://www.ankerpower.com/app/";         // 服务器地址
@@ -93,17 +93,17 @@ public class VolleyManager {
     public static final String TEST_EDIT_ACCOUNT_NAME = "Editor Wang";
     public static final String TEST_EDIT_ACCOUNT_MOBILE_NUMBER = "13612345678";
 
-    private static VolleyManager mVolleyManager;
+    private static VolleyManagerImpl mVolleyManager;
 
-    public static VolleyManager getInstance() {
+    public static VolleyManagerImpl getInstance() {
         if (mVolleyManager==null) {
-            mVolleyManager = new VolleyManager(MobileApplication.get());
+            mVolleyManager = new VolleyManagerImpl(MobileApplication.get());
         }
 
         return mVolleyManager;
     }
 
-    private VolleyManager(Context context) {
+    private VolleyManagerImpl(Context context) {
         Log.d(TAG, "initilize RequestQueue");
         mRequestQueue = Volley.newRequestQueue(context);
         mPref = PreferenceManager.getDefaultSharedPreferences(context);

@@ -1,7 +1,5 @@
 package com.oceanwing.y.rpc.volley;
 
-// import com.oceanwing.powerusb.mobile.MobileApplication;
-
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
 import com.android.volley.Request;
@@ -9,6 +7,7 @@ import com.android.volley.Response;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.toolbox.StringRequest;
+import com.oceanwing.y.rpc.VolleyManager;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -37,8 +36,7 @@ public class CookieStringRequest extends StringRequest {
     protected Response<String> parseNetworkResponse(NetworkResponse response) {
         // since we don't know which of the two underlying network vehicles
         // will Volley use, we have to handle and store session cookies manually
-        // TODO
-        // MobileApplication.get().getVolleyManager().checkSessionCookie(response.headers);
+        VolleyManager.getInstance().checkSessionCookie(response.headers);
 
         return super.parseNetworkResponse(response);
     }
@@ -54,7 +52,7 @@ public class CookieStringRequest extends StringRequest {
             headers = new HashMap<String, String>();
         }
 
-        // MobileApplication.get().getVolleyManager().addSessionCookie(headers);
+        VolleyManager.getInstance().addSessionCookie(headers);
 
         return headers;
     }
