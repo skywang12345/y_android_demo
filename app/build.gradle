@@ -68,5 +68,5 @@ dependencies {
 
     // 插件
     compile project(':components/account')
-    //compile project(':components/payment')
+    compile project(':components/payment')
 }

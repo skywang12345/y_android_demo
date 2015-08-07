@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidTest</string>
+
+    <string name="card_id">CARD</string>
+    <string name="card_exp">exp</string>
+    <string name="card_cvv">cvv</string>
+    <string name="card_scan_tip">Scan Your Card</string>
+    <string name="update">Update</string>
+
+</resources>

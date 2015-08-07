@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- CARD -->
+    <LinearLayout
+        android:id="@+id/card_container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/account_editor_container_height" >
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:text="@string/card_id"
+            android:textColor="@color/gray"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/card_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="4"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:singleLine="true"
+            android:background="@null"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <View style="@style/HorDivideLineLtgrayStyle" />
+
+    <!-- EXP -->
+    <LinearLayout
+        android:id="@+id/exp_container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/account_editor_container_height" >
+        <TextView
+            android:id="@+id/exp_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:text="@string/card_exp"
+            android:textColor="@color/gray"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/exp_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="4"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:singleLine="true"
+            android:background="@null"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <View style="@style/HorDivideLineLtgrayStyle" />
+
+    <!-- CVV -->
+    <LinearLayout
+        android:id="@+id/cvv_container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/account_editor_container_height" >
+        <TextView
+            android:id="@+id/cvv_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:text="@string/card_cvv"
+            android:textColor="@color/gray"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/cvv_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="4"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:inputType="number"
+            android:password="true"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:background="@null"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <View style="@style/HorDivideLineLtgrayStyle" />
+
+    <!-- 扫描 -->
+    <TextView
+        android:id="@+id/scan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/account_editor_container_height" 
+        android:background="@drawable/bg_btn_rectangle_transparent_pressed_translucent_gray" 
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/card_scan_tip"
+        android:textColor="@color/blue"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

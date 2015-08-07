@@ -11,4 +11,4 @@ include ':layer_rpc/rpc'
 
 // 插件
 include ':components/account'
-//include ':components/payment'
+include ':components/payment'
