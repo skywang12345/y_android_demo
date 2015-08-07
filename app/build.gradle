@@ -63,8 +63,10 @@ dependencies {
     compile project(':layer_ui/SlidingMenuLibrary')
 
     // RPC层
-    compile project(':layer_rpc/volley')
+    //compile project(':layer_rpc/volley')
+    compile project(':layer_rpc/rpc')
 
     // 插件
     compile project(':components/account')
+    //compile project(':components/payment')
 }

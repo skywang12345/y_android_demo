@@ -15,9 +15,9 @@ public class MobileApplication extends Application {
     private Handler mMainHandler;
     // private VolleyManager mVolleyManager;
 
-    // public static MobileApplication get() {
-    //     return mApplication;
-    // }
+    public static MobileApplication get() {
+        return mApplication;
+    }
 
     // public VolleyManager getVolleyManager() {
     //     return mVolleyManager;

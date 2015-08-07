@@ -7,6 +7,8 @@ include ':layer_ui/SlidingMenuLibrary'
 
 // RPC层
 include ':layer_rpc/volley'
+include ':layer_rpc/rpc'
 
 // 插件
 include ':components/account'
+//include ':components/payment'

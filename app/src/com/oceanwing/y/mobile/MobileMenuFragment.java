@@ -2,6 +2,7 @@ package com.oceanwing.y.mobile;
 
 // import com.oceanwing.y.mobile.account.EditPaymentActivity;
 import com.oceanwing.y.plugin.account.RegisterIdentifierActivity;
+//import com.oceanwing.y.plugin.payment.EditPaymentActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -52,6 +53,7 @@ public class MobileMenuFragment extends Fragment
                 break;
             }
             case R.id.payment_container: {
+                // startActivity(new Intent(this.getActivity(), EditPaymentActivity.class));
                 break;
             }
             case R.id.share_container: {
