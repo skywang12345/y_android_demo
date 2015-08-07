@@ -34,4 +34,6 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:20.0.+'
+    // 依赖RPC的接口
+    provided files('libs/RpcLib.jar')
 }

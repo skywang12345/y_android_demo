@@ -9,6 +9,9 @@ import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.TextView;
 
+import com.oceanwing.y.rpc.VolleyListener;
+import com.oceanwing.y.rpc.VolleyManager;
+
 /**
  * Payment 编辑界面
  *
@@ -36,12 +39,28 @@ public class EditPaymentActivity extends FragmentActivity
 
     @Override
     public void onClick(View v) {
+        VolleyManager mVolleyManager = VolleyManager.getInstance();
+        if (mVolleyManager != null) {
+            String url = "http://m.weather.com.cn/atad/101010100.html";
+            mVolleyManager.postStringRequest(url, new MyListener(), null, null);
+        }
         // switch (v.getId()) {
         //     case R.id.header_left_img:
         //         break;
         //     case R.id.btn_update:
         //         break;
         // }
+    }
+
+    private final class MyListener implements VolleyListener {
+        @Override
+        public void onSuccess(Object data) {
+            Log.d(TAG, "onSuccess: data="+data);
+        }
+        @Override
+        public void onFail(String message) {
+            Log.d(TAG, "onFail: message="+message);
+        }
     }
 
     @Override
